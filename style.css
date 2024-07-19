@@ -263,14 +263,14 @@ iframe:hover{
     justify-content: center;
 }
 .q1{
-    text-align: center;
+    padding-bottom: 40px;
+    text-align: left;
     font-size: larger;
     color: rgb(91, 91, 91);
-
 }
 .third{
     height: 3px;
-    width: 515px;
+    width: 750px;
     background-color: rgb(139, 132, 132);
 }
 .bo{
@@ -280,9 +280,9 @@ iframe:hover{
     margin-bottom: 7px;
 }
 .h20{
-    width: 550px;
+    width: 745px;
     background-color: lightblue;
-    height: 200px;
+    height: 400px;
 }
 .none{
     display: flex;
@@ -328,3 +328,18 @@ iframe:hover{
     text-align: center;
     font-size: x-large;
 }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: smaller;
+  }
+  
+  .q1:hover .dropdown-content {
+    display: block;
+    text-align: center;
+  }
